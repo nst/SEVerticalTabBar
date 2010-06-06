@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Countries</key>
+		<array>
+			<string>France</string>
+			<string>Germany</string>
+			<string>India</string>
+			<string>Japan</string>
+			<string>Peru</string>
+		</array>
+	</dict>
+	<dict>
+		<key>Cars</key>
+		<array>
+			<string>Ford</string>
+			<string>Maserati</string>
+			<string>Mercedes</string>
+			<string>Toyota</string>
+			<string>Mazda</string>
+		</array>
+	</dict>
+	<dict>
+		<key>People</key>
+		<array>
+			<string>Wilson</string>
+			<string>Reagan</string>
+			<string>Chirac</string>
+			<string>Mitterrand</string>
+			<string>Putin</string>
+		</array>
+	</dict>
+	<dict>
+		<key>Fruits</key>
+		<array>
+			<string>Cherries</string>
+			<string>Peach</string>
+			<string>Apple</string>
+			<string>Banana</string>
+		</array>
+	</dict>
+	<dict>
+		<key>Animals</key>
+		<array>
+			<string>Dog</string>
+			<string>Cat</string>
+			<string>Bird</string>
+			<string>Snake</string>
+			<string>Turtle</string>
+		</array>
+	</dict>
+	<dict>
+		<key>Artists</key>
+		<array>
+			<string>Prince</string>
+			<string>Beyonce</string>
+			<string>Scorpions</string>
+		</array>
+	</dict>
+</array>
+</plist>

@@ -1,0 +1,360 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0323587611BB2625003BA69D /* Contents.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0323587511BB2625003BA69D /* Contents.plist */; };
+		0323591411BB303C003BA69D /* animals.png in Resources */ = {isa = PBXBuildFile; fileRef = 0323590811BB303C003BA69D /* animals.png */; };
+		0323591511BB303C003BA69D /* animals_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = 0323590911BB303C003BA69D /* animals_selected.png */; };
+		0323591611BB303C003BA69D /* artists.png in Resources */ = {isa = PBXBuildFile; fileRef = 0323590A11BB303C003BA69D /* artists.png */; };
+		0323591711BB303C003BA69D /* artists_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = 0323590B11BB303C003BA69D /* artists_selected.png */; };
+		0323591811BB303C003BA69D /* cars.png in Resources */ = {isa = PBXBuildFile; fileRef = 0323590C11BB303C003BA69D /* cars.png */; };
+		0323591911BB303C003BA69D /* cars_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = 0323590D11BB303C003BA69D /* cars_selected.png */; };
+		0323591A11BB303C003BA69D /* countries.png in Resources */ = {isa = PBXBuildFile; fileRef = 0323590E11BB303C003BA69D /* countries.png */; };
+		0323591B11BB303C003BA69D /* countries_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = 0323590F11BB303C003BA69D /* countries_selected.png */; };
+		0323591C11BB303C003BA69D /* fruits.png in Resources */ = {isa = PBXBuildFile; fileRef = 0323591011BB303C003BA69D /* fruits.png */; };
+		0323591D11BB303C003BA69D /* fruits_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = 0323591111BB303C003BA69D /* fruits_selected.png */; };
+		0323598811BB30D7003BA69D /* people_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = 0323598611BB30D7003BA69D /* people_selected.png */; };
+		0323598911BB30D7003BA69D /* people.png in Resources */ = {isa = PBXBuildFile; fileRef = 0323598711BB30D7003BA69D /* people.png */; };
+		03BEBCE1119580E3001E7311 /* SEVerticalTabBarController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03BEBCE0119580E3001E7311 /* SEVerticalTabBarController.xib */; };
+		03BEBCEC1195828E001E7311 /* SEVerticalTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03BEBCEB1195828E001E7311 /* SEVerticalTabBarController.m */; };
+		03BEBD101195865B001E7311 /* MasterTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 03BEBD0E1195865B001E7311 /* MasterTVC.m */; };
+		03BEBD111195865B001E7311 /* MasterTVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03BEBD0F1195865B001E7311 /* MasterTVC.xib */; };
+		03BEBE6A119596BC001E7311 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03BEBE69119596BC001E7311 /* QuartzCore.framework */; };
+		03BEBEDD11959AE5001E7311 /* SEVerticalTabBarCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03BEBEDC11959AE5001E7311 /* SEVerticalTabBarCell.xib */; };
+		03BEBEE111959B54001E7311 /* SEVerticalTabBarCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 03BEBEE011959B54001E7311 /* SEVerticalTabBarCell.m */; };
+		03BEC0501195A860001E7311 /* DetailVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 03BEC04E1195A860001E7311 /* DetailVC.m */; };
+		03BEC0511195A860001E7311 /* DetailVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03BEC04F1195A860001E7311 /* DetailVC.xib */; };
+		03BEC4EE1195E935001E7311 /* SEVerticalTabBarGradient.png in Resources */ = {isa = PBXBuildFile; fileRef = 03BEC4ED1195E935001E7311 /* SEVerticalTabBarGradient.png */; };
+		1D3623260D0F684500981E51 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* AppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		2892E4100DC94CBA00A64D0F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */; };
+		28AD73600D9D9599002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD735F0D9D9599002E5188 /* MainWindow.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0323587511BB2625003BA69D /* Contents.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Contents.plist; sourceTree = "<group>"; };
+		0323590811BB303C003BA69D /* animals.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = animals.png; sourceTree = "<group>"; };
+		0323590911BB303C003BA69D /* animals_selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = animals_selected.png; sourceTree = "<group>"; };
+		0323590A11BB303C003BA69D /* artists.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = artists.png; sourceTree = "<group>"; };
+		0323590B11BB303C003BA69D /* artists_selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = artists_selected.png; sourceTree = "<group>"; };
+		0323590C11BB303C003BA69D /* cars.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cars.png; sourceTree = "<group>"; };
+		0323590D11BB303C003BA69D /* cars_selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cars_selected.png; sourceTree = "<group>"; };
+		0323590E11BB303C003BA69D /* countries.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = countries.png; sourceTree = "<group>"; };
+		0323590F11BB303C003BA69D /* countries_selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = countries_selected.png; sourceTree = "<group>"; };
+		0323591011BB303C003BA69D /* fruits.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fruits.png; sourceTree = "<group>"; };
+		0323591111BB303C003BA69D /* fruits_selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fruits_selected.png; sourceTree = "<group>"; };
+		0323598611BB30D7003BA69D /* people_selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = people_selected.png; sourceTree = "<group>"; };
+		0323598711BB30D7003BA69D /* people.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = people.png; sourceTree = "<group>"; };
+		03BEBCE0119580E3001E7311 /* SEVerticalTabBarController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SEVerticalTabBarController.xib; sourceTree = "<group>"; };
+		03BEBCEA1195828E001E7311 /* SEVerticalTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEVerticalTabBarController.h; sourceTree = "<group>"; };
+		03BEBCEB1195828E001E7311 /* SEVerticalTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SEVerticalTabBarController.m; sourceTree = "<group>"; };
+		03BEBD0D1195865B001E7311 /* MasterTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MasterTVC.h; sourceTree = "<group>"; };
+		03BEBD0E1195865B001E7311 /* MasterTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MasterTVC.m; sourceTree = "<group>"; };
+		03BEBD0F1195865B001E7311 /* MasterTVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = MasterTVC.xib; path = Classes/MasterTVC.xib; sourceTree = "<group>"; };
+		03BEBE69119596BC001E7311 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		03BEBEDC11959AE5001E7311 /* SEVerticalTabBarCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SEVerticalTabBarCell.xib; sourceTree = "<group>"; };
+		03BEBEDF11959B54001E7311 /* SEVerticalTabBarCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEVerticalTabBarCell.h; sourceTree = "<group>"; };
+		03BEBEE011959B54001E7311 /* SEVerticalTabBarCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SEVerticalTabBarCell.m; sourceTree = "<group>"; };
+		03BEC04D1195A860001E7311 /* DetailVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailVC.h; sourceTree = "<group>"; };
+		03BEC04E1195A860001E7311 /* DetailVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailVC.m; sourceTree = "<group>"; };
+		03BEC04F1195A860001E7311 /* DetailVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = DetailVC.xib; path = Classes/DetailVC.xib; sourceTree = "<group>"; };
+		03BEC4ED1195E935001E7311 /* SEVerticalTabBarGradient.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SEVerticalTabBarGradient.png; sourceTree = "<group>"; };
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* SEVerticalTabBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SEVerticalTabBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		28A0AAE50D9B0CCF005BE974 /* SEVerticalTabBar_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEVerticalTabBar_Prefix.pch; sourceTree = "<group>"; };
+		28AD735F0D9D9599002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* SEVerticalTabBar-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "SEVerticalTabBar-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				2892E4100DC94CBA00A64D0F /* CoreGraphics.framework in Frameworks */,
+				03BEBE6A119596BC001E7311 /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0323590711BB303C003BA69D /* images */ = {
+			isa = PBXGroup;
+			children = (
+				0323590811BB303C003BA69D /* animals.png */,
+				0323590911BB303C003BA69D /* animals_selected.png */,
+				0323590A11BB303C003BA69D /* artists.png */,
+				0323590B11BB303C003BA69D /* artists_selected.png */,
+				0323590C11BB303C003BA69D /* cars.png */,
+				0323590D11BB303C003BA69D /* cars_selected.png */,
+				0323590E11BB303C003BA69D /* countries.png */,
+				0323590F11BB303C003BA69D /* countries_selected.png */,
+				0323591011BB303C003BA69D /* fruits.png */,
+				0323591111BB303C003BA69D /* fruits_selected.png */,
+				0323598711BB30D7003BA69D /* people.png */,
+				0323598611BB30D7003BA69D /* people_selected.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1D3623240D0F684500981E51 /* AppDelegate.h */,
+				1D3623250D0F684500981E51 /* AppDelegate.m */,
+				03BEBCEA1195828E001E7311 /* SEVerticalTabBarController.h */,
+				03BEBCEB1195828E001E7311 /* SEVerticalTabBarController.m */,
+				03BEBEDF11959B54001E7311 /* SEVerticalTabBarCell.h */,
+				03BEBEE011959B54001E7311 /* SEVerticalTabBarCell.m */,
+				03BEBD0D1195865B001E7311 /* MasterTVC.h */,
+				03BEBD0E1195865B001E7311 /* MasterTVC.m */,
+				03BEC04D1195A860001E7311 /* DetailVC.h */,
+				03BEC04E1195A860001E7311 /* DetailVC.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* SEVerticalTabBar.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				28A0AAE50D9B0CCF005BE974 /* SEVerticalTabBar_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				28AD735F0D9D9599002E5188 /* MainWindow.xib */,
+				03BEBD0F1195865B001E7311 /* MasterTVC.xib */,
+				03BEC04F1195A860001E7311 /* DetailVC.xib */,
+				8D1107310486CEB800E47090 /* SEVerticalTabBar-Info.plist */,
+				03BEBCE0119580E3001E7311 /* SEVerticalTabBarController.xib */,
+				03BEBEDC11959AE5001E7311 /* SEVerticalTabBarCell.xib */,
+				03BEC4ED1195E935001E7311 /* SEVerticalTabBarGradient.png */,
+				0323587511BB2625003BA69D /* Contents.plist */,
+				0323590711BB303C003BA69D /* images */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */,
+				03BEBE69119596BC001E7311 /* QuartzCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* SEVerticalTabBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "SEVerticalTabBar" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SEVerticalTabBar;
+			productName = VerticalTabBar;
+			productReference = 1D6058910D05DD3D006BFB54 /* SEVerticalTabBar.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "SEVerticalTabBar" */;
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+				en,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* SEVerticalTabBar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD73600D9D9599002E5188 /* MainWindow.xib in Resources */,
+				03BEBCE1119580E3001E7311 /* SEVerticalTabBarController.xib in Resources */,
+				03BEBD111195865B001E7311 /* MasterTVC.xib in Resources */,
+				03BEBEDD11959AE5001E7311 /* SEVerticalTabBarCell.xib in Resources */,
+				03BEC0511195A860001E7311 /* DetailVC.xib in Resources */,
+				03BEC4EE1195E935001E7311 /* SEVerticalTabBarGradient.png in Resources */,
+				0323587611BB2625003BA69D /* Contents.plist in Resources */,
+				0323591411BB303C003BA69D /* animals.png in Resources */,
+				0323591511BB303C003BA69D /* animals_selected.png in Resources */,
+				0323591611BB303C003BA69D /* artists.png in Resources */,
+				0323591711BB303C003BA69D /* artists_selected.png in Resources */,
+				0323591811BB303C003BA69D /* cars.png in Resources */,
+				0323591911BB303C003BA69D /* cars_selected.png in Resources */,
+				0323591A11BB303C003BA69D /* countries.png in Resources */,
+				0323591B11BB303C003BA69D /* countries_selected.png in Resources */,
+				0323591C11BB303C003BA69D /* fruits.png in Resources */,
+				0323591D11BB303C003BA69D /* fruits_selected.png in Resources */,
+				0323598811BB30D7003BA69D /* people_selected.png in Resources */,
+				0323598911BB30D7003BA69D /* people.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* AppDelegate.m in Sources */,
+				03BEBCEC1195828E001E7311 /* SEVerticalTabBarController.m in Sources */,
+				03BEBD101195865B001E7311 /* MasterTVC.m in Sources */,
+				03BEBEE111959B54001E7311 /* SEVerticalTabBarCell.m in Sources */,
+				03BEC0501195A860001E7311 /* DetailVC.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = SEVerticalTabBar_Prefix.pch;
+				INFOPLIST_FILE = "SEVerticalTabBar-Info.plist";
+				PRODUCT_NAME = SEVerticalTabBar;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = SEVerticalTabBar_Prefix.pch;
+				INFOPLIST_FILE = "SEVerticalTabBar-Info.plist";
+				PRODUCT_NAME = SEVerticalTabBar;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"ARCHS[sdk=iphoneos*]" = armv7;
+				"ARCHS[sdk=iphonesimulator*]" = i386;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos3.2;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"ARCHS[sdk=iphoneos*]" = armv7;
+				"ARCHS[sdk=iphonesimulator*]" = i386;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				SDKROOT = iphoneos3.2;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "SEVerticalTabBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "SEVerticalTabBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
